@@ -1,4 +1,5 @@
 // https://js.coach http://bootswatch.com https://github.com/ericvicenti/intro-to-react
+// Netlify for deployment
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -64,6 +65,7 @@ class App extends Component {
           <Navbar.Brand>
             F8 Weather App
           </Navbar.Brand>
+          <a href="https://github.com/robertcash/simple-weather-f8"> Learn to build me</a>
         </Navbar.Header>
       </Navbar>
       <Grid>
